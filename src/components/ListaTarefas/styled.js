@@ -10,6 +10,7 @@ export const ListaTarefasContainer = styled.div`
   box-shadow: -2px 3px 30px -7px rgba(0, 0, 0, 0.75);
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  text-align: center;
 `;
 
 export const InputContainer = styled.div`
@@ -72,3 +73,18 @@ export const LinhaHorizontal = styled.hr`
   width: 100%;
   margin: 16px;
 `
+
+export const TarefaExcluida = styled.li`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 6px 8px;
+  width: 400px;
+  height: 35px;
+  color: gray;
+  text-decoration: line-through;
+  list-style-type: none;
+`;
